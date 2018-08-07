@@ -77,6 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     bbq_holidays = []
     holiday_name.collect do |supply|
       if supply == "BBQ"
+        binding.pry
       bbq_holidays.push holiday_name
       end
     end
